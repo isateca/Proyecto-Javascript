@@ -1,0 +1,50 @@
+html{
+    background-color: black;
+}
+.body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+.enlaces{
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 40vh;
+}
+.container{
+    border: 1px solid darkgreen;
+    border-top: 5px solid darkgreen;
+    padding: 20px;
+    color: aliceblue;
+    background-color: #191919;
+}
+.enlaces a{
+    background-color: black;
+    width: max-content;
+    max-height: 25px;
+    margin: 5px;
+    padding: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.enlaces a:hover{
+    border: 1px solid green;
+    color: darkgreen;
+}
+.enlaces button {
+    width: 20%;
+    max-height: 40px;
+    margin: 10px;
+}
